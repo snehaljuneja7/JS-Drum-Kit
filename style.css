@@ -1,0 +1,44 @@
+body{
+  text-align: center;
+  background-color: slategrey;
+  
+}
+h1{
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+kbd{
+  display: block;
+  font-size: 4rem;
+  font-family: sans-serif;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+  min-height: 50vh;
+}
+.key{
+  border: 0.4rem solid black;
+  border-radius: 0.6rem;
+  width: 10rem;
+  margin: 0.5rem;
+  transition: all 0.07s;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 1rem 0.5rem;
+  text-shadow: 0 0 0.5rem rgb(209, 200, 200) ;
+}
+.playing{
+  transform: scale(1.1);
+  border-color: snow;
+  box-shadow: 0 0 1rem white;
+}
+.sound{
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
